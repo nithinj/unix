@@ -17,7 +17,7 @@ int check_for_endianness()
 int
 main()
 {
- if (check_for_endianness())
+  if (check_for_endianness())
 	printf("Little Endian\n");
 else
 	printf("Big Endian\n");
